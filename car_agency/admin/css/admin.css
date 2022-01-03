@@ -1,0 +1,31 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table td, .table th{
+   padding: 20px 15px; 
+   border:1px solid #ddd;
+    text-align: center;
+}
+
+.table th{
+   background-color: #181818;
+    color:#fff;
+}
+.table tbody tr:nth-child(even){
+   background-color: #c0c0c0;
+}
+button{
+   padding: 10px 30px;
+    border-radius: 2px;
+    margin-top: 50px;
+    border-color:#181818;
+    background-color: #181818;
+    color:white;
+    cursor: pointer;
+}
+button:hover{
+    border-color:#50a0ff;
+    background-color: #50a0ff;
+    color:#181818;
+}
